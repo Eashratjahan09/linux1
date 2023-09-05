@@ -1,0 +1,15 @@
+﻿a) cd ~/Downloads
+b) mkdir ~/Downloads/"My New Folder" ~/Downloads/Another
+c) cd "My New Folder"
+   mkdir folders
+   touch test1.txt
+d)cp test1.txt test2.txt
+e)mkdir ~/Documents/Folder_in_documents
+   mv ~/Downloads/"My New Folder"/test1.txt  ~/Documents/Folder_in_documents
+f)mv test1.txt Newtest.txt
+ echo "I find it a bit difficult." >> Newtest.txt
+g)sort -r Newtest.txt ~/Downloads/"My New Folder"/test2.txt > Out1.txt
+h)find ~/Desktop -type f -name '[A-Za-z][A-Za-z]*' -exec chmod a-x {} +
+i)cd ~/Downloads/"My New Folder"/
+  head -5 test2.txt | tail -4
+j)grep -E '^[0-9]|[0-9]$' test2.txt
